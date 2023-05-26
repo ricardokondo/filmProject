@@ -10,6 +10,15 @@ Vamos utilizar para esse projeto:
 - React para a criação do front-end. [Documentação do React](https://react.dev/)
 - Node.js. [Documentação do Node.js](https://nodejs.org/en)
 
+### Bibliotecas utilizadas
+
+- Biblioteca react-router-dom
+    - utilize o comando para instalar a biblioteca 
+        - npm install react-router-dom
+- Biblioteca axios
+    - utilize o comando para instalar a biblioteca 
+        - npm install axios  
+
 ## API Utilizada
 
 Vamos utilizar a API do site The Movie DB
@@ -19,3 +28,4 @@ Vamos utilizar a API do site The Movie DB
 Para isso, você precisa estar se registrando no site e em seguida, pedir acesso a API, no qual será criado uma key para acesso a API.
 
 - Acesso a [Documentação da API](https://developer.themoviedb.org/)
+
