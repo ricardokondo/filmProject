@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 import "./favorite.css";
 
 function Favorite() {
@@ -14,11 +15,12 @@ function Favorite() {
     //alert("Id clicado " + id);
     let filtroFilmes = film.filter((item) => {
       // Retorna todos os filmes menos o que cliquei
-      return item.id != id;
+      return item.id !== id;
     });
-    setFilm(filtroFilmes);
 
+    setFilm(filtroFilmes);
     localStorage.setItem("@primeflix", JSON.stringify(filtroFilmes));
+    toast.success("FILME REMOVIDO COM SUCESSO.");
   }
 
   return (
