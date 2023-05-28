@@ -38,6 +38,33 @@ function Film() {
     };
   }, [navigate, id]);
 
+  function saveFilm() {
+    const minhaLista = localStorage.getItem("@primeflix");
+
+    let filmesSalvos = JSON.parse(minhaLista) || [];
+
+    const hasFilme = filmesSalvos.some(
+      (filmesSalvo) => filmesSalvo.id === film.id
+    );
+
+    if (hasFilme) {
+      alert("ESSE FILME JÁ ESTA NA LISTA");
+      return;
+    }
+
+    filmesSalvos.push(film);
+    localStorage.setItem("@primeflix", JSON.stringify(filmesSalvos));
+    alert("FILME SALVO COM SUCESSO");
+  }
+
+  if (loading) {
+    return (
+      <div className="filme-info">
+        <h1>Carregando detalhes...</h1>
+      </div>
+    );
+  }
+
   if (loading) {
     return (
       <div className="filme-info">
@@ -58,10 +85,10 @@ function Film() {
       <strong>Avaliação: {film.vote_average} / 10</strong>
 
       <div className="area-buttons">
-        <button>Salvar</button>
+        <button onClick={saveFilm}>Salvar</button>
         <button>
           <a
-            target="_blank"
+            target="blank"
             rel="external"
             href={`https://www.youtube.com/results?search_query=${film.title} Trailer`}
           >
