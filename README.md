@@ -12,12 +12,15 @@ Vamos utilizar para esse projeto:
 
 ### Bibliotecas utilizadas
 
-- Biblioteca react-router-dom
+- Biblioteca react-router-dom [Documentação da biblioteca react-router-dom](https://reactrouter.com/en/main)
     - utilize o comando para instalar a biblioteca 
         - npm install react-router-dom
-- Biblioteca axios
+- Biblioteca axios [Documentação da biblioteca axios](https://www.npmjs.com/package/axios)
     - utilize o comando para instalar a biblioteca 
         - npm install axios  
+- Biblioteca react-toastify [Documentação da biblioteca react-toastify](https://fkhadra.github.io/react-toastify/introduction)
+    - utilize o comando para instalar a biblioteca
+        - npm install react-toastify      
 
 ## API Utilizada
 
