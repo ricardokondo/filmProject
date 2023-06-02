@@ -6,7 +6,6 @@ import "./home.css";
 
 function Home() {
   const [film, setFilm] = useState([]);
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -31,7 +30,7 @@ function Home() {
   if (loading) {
     return (
       <div className="loading">
-        <h2>Carregando Filmes </h2>
+        <h2>Carregando Filmes... </h2>
       </div>
     );
   }
