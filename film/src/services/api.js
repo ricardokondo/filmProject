@@ -14,10 +14,11 @@ URL da API: movie/now_playing?api_key=f6a8672f5d18fe891e31254590f7f36e&language=
 
 Para consumir as informações da API, nós iremos utilizar a biblioteca do React chamada de Axios. 
 Para isso, basta instalar a biblioteca axios no seu projeto
+Link para acessar a biblioteca Axios: https://www.npmjs.com/package/axios
 
 */
 
-// Importar a biblioteca
+// Importar a biblioteca do axios para o arquivo api.js
 import axios from "axios";
 
 /*  Criamos a variável chamada api e atribuímos a ela, que será o início e a estrutura base do serviço de API 

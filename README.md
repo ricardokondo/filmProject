@@ -9,6 +9,7 @@ Vamos utilizar para esse projeto:
 - Git para controle de versão de códigos para o projeto
 - React para a criação do front-end. [Documentação do React](https://react.dev/)
 - Node.js. [Documentação do Node.js](https://nodejs.org/en)
+- Netlify para subir o site para produção [Documentação do Netlify](https://app.netlify.com/)
 
 ### Bibliotecas utilizadas
 
@@ -32,3 +33,8 @@ Para isso, você precisa estar se registrando no site e em seguida, pedir acesso
 
 - Acesso a [Documentação da API](https://developer.themoviedb.org/)
 
+## Visualizar site em produção
+
+Para acessar o site em produção, clique no seguinte link:
+
+- https://progweb-filmes.netlify.app
