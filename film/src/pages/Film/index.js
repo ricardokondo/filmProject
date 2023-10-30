@@ -30,6 +30,7 @@ function Film() {
       await api
         /* .get -> realiza uma requisição do tipo get para a api do themoviedb e retorna as informações do filme
          *  pelo id do filme que foi passado na url da página de detalhes do filme
+         *  Removi aqui as api_key
          */
         .get(`/movie/${id}`, {
           params: {

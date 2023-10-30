@@ -17,6 +17,7 @@ function Home() {
     // metodo async é utilizado para que a função loadFilm() seja executada de forma assincrona e não bloqueie a execução das demais funções
     async function loadFilm() {
       // await api.get() -> aguarda a api do themoviedb retornar as informações dos filmes para que a função continue a ser executada
+      // Removi aqui a api_key
       const response = await api.get("movie/now_playing", {
         params: {
           api_key: "f6a8672f5d18fe891e31254590f7f36e",

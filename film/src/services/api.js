@@ -11,6 +11,7 @@ curl --request GET \
      
 URL da API: movie/now_playing?api_key=f6a8672f5d18fe891e31254590f7f36e&language=pt-BR
 
+Removi aqui a api_key
 
 Para consumir as informações da API, nós iremos utilizar a biblioteca do React chamada de Axios. 
 Para isso, basta instalar a biblioteca axios no seu projeto
