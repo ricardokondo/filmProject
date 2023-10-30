@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import api from "../../services/api";
 import { Link } from "react-router-dom";
 import "./home.css";
-// URL da API:  /movie/now_playing?api_key=f6a8672f5d18fe891e31254590f7f36e&language=pt-BR
+// URL da API:  /movie/now_playing?api_key=SUA_API_KEY&language=pt-BR
 
 // Função que irá renderizar a página de filmes em cartaz no cinema no momento
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
       // await api.get() -> aguarda a api do themoviedb retornar as informações dos filmes para que a função continue a ser executada
       const response = await api.get("movie/now_playing", {
         params: {
-          api_key: "f6a8672f5d18fe891e31254590f7f36e",
+          api_key: "  ",
           language: "pt-BR",
           page: 1,
         },

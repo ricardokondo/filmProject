@@ -33,7 +33,7 @@ function Film() {
          */
         .get(`/movie/${id}`, {
           params: {
-            api_key: "f6a8672f5d18fe891e31254590f7f36e",
+            api_key: "",
             language: "pt-BR",
           },
         })
