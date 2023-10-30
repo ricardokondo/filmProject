@@ -19,7 +19,7 @@ function Home() {
       // await api.get() -> aguarda a api do themoviedb retornar as informações dos filmes para que a função continue a ser executada
       const response = await api.get("movie/now_playing", {
         params: {
-          api_key: "  ",
+          api_key: "TO DO",
           language: "pt-BR",
           page: 1,
         },
