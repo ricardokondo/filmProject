@@ -9,6 +9,7 @@ curl --request GET \
      https://api.themoviedb.org/3/
      
 
+Removi aqui a api_key
 
 Para consumir as informações da API, nós iremos utilizar a biblioteca do React chamada de Axios. 
 Para isso, basta instalar a biblioteca axios no seu projeto
